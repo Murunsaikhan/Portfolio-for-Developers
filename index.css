@@ -8,14 +8,15 @@ body{
 
 }
 .bebas-neue-regular {
-    font-family: "Bebas Neue";
+    font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
   }
+  
 
 .container {
     width: 100%;
-    max-width: 1440px;
+    max-width: 1200px;
     margin-inline: auto;
 }
 
@@ -40,6 +41,9 @@ body{
 }
 
 
+
+
+
 .section-one{
     height: 810px;
     border-bottom: 1px solid #484848;
@@ -62,7 +66,6 @@ body{
     line-height: 90.9px;
     text-align: left;
     color: #fff;
-    margin: 0;
 }
 .header-and-sub-header p{
     font-size: 18px;
@@ -124,11 +127,11 @@ body{
     height: 810px;
     border: 1px solid #484848;
 }
-<<<<<<< Updated upstream
+
 .section-two{
     width: 1224px;
     height: 2418px;
-=======
+}
 
 
 
@@ -143,6 +146,7 @@ body{
     width: 600px;
     height: 138px;
     gap: 8px;
+    
 }
 .header-and-sub-header-two h4{
     font-size: 76px;
@@ -413,6 +417,11 @@ color: #c7c7c7;
     line-height: 24px;
     font: 700;
     color: #D3E97A;
+} 
+.line{
+    height: 860px;
+    width: 100%;
+    border-bottom: 1px solid #484848;
 }
 .about-me{
     width: 1224px;
@@ -448,5 +457,228 @@ font-size: 18px;
 font-weight: 400;
 line-height: 27px;
 color: #c7c7c7;
->>>>>>> Stashed changes
+}
+.connect{
+    width: 100%;
+    height: 771px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-connect{
+    width: 600px;
+    height: 611px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.right-connect{
+    width: 600px;
+    height: 611px;
+    gap: 48px;
+}
+.connect-title{
+    width: 600px;
+    height: 226px;
+    gap: 40px;
+}
+.header-and-sub-header-3{
+    width: 600px;
+    height: 154px;
+    gap: 16px;
+}
+.header-and-sub-header-3 h4{
+    font-size: 76px;
+    line-height: 76px;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+}
+.sub-header-3{
+    width: 302px;
+    height: 62px;
+}
+.sub-text{
+    width: 302px;
+    height: 27px;
+    gap: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+.sub-text p{
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #c7c7c7;
+    font-family: "Manrope", serif;;
+}
+.mail{
+    width: 204px;
+    height: 27px;
+}
+.mail p{
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #c7c7c7;
+    font-family: "Manrope", serif;
+    margin: 0;
+}
+.underline2{
+    width: 204px;
+    border: 1px solid #D3E97A;
+}
+.underline3{
+    width: 63px;
+    border: 1px solid #D3E97A;
+}
+.sub-text2{
+    width: 260px;
+    height: 27px;
+    gap: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+.sub-text2 p{
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #c7c7c7;
+    font-family: "Manrope", serif;;
+}
+.mail2{
+    width: 63px;
+    height: 27px;
+}
+.mail2 p{
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #c7c7c7;
+    font-family: "Manrope", serif;
+    margin: 0;
+}
+.social-icons{
+    width: 200px;
+    display: flex;
+    gap: 24px;
+}
+.left-connect p{
+    font-size: 16px;
+    line-height: 25.6px;
+    font-weight: 500;
+    color: #c7c7c7;
+    font-family: "Manrope", serif;
+    margin: 0;
+}
+.gap-40{
+    width: 600px;
+    height: 611px;
+    gap: 40px;
+}
+.connect-list{
+    width: 600px;
+    height: 517px;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+}
+.name{
+    width: 600px;
+    height: 85px;
+    gap: 8px;
+}
+.name p{
+    font-size: 16px;
+    line-height: 25.6px;
+    font-weight: 500;
+    color: #c7c7c7;
+    font-family: "Manrope", serif;
+    margin: 0;
+}
+.list-text{
+    width: 600px;
+    height: 51px;
+    border-radius: 4px;
+    background-color: #1a1a1a;
+    display: flex;
+    align-items: center;
+}
+.list-text p{
+    color: #fff;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    font-family: "Manrope", serif;
+    margin-left: 10px;
+}
+
+
+
+.email{
+    width: 600px;
+    height: 85px;
+    gap: 8px;
+}
+.email p{
+    font-size: 16px;
+    line-height: 25.6px;
+    font-weight: 500;
+    color: #c7c7c7;
+    font-family: "Manrope", serif;
+    margin: 0;
+}
+.subject{
+    width: 600px;
+    height: 85px;
+    gap: 8px;
+}
+.subject p{
+    font-size: 16px;
+    line-height: 25.6px;
+    font-weight: 500;
+    color: #c7c7c7;
+    font-family: "Manrope", serif;
+    margin: 0;
+}
+.message{
+    width: 600px;
+    height: 190px;
+    gap: 8px;
+}
+.message p{
+    font-size: 16px;
+    line-height: 25.6px;
+    font-weight: 500;
+    color: #c7c7c7;
+    font-family: "Manrope", serif;
+    margin: 0;
+}
+.list-text-msg{
+    width: 600px;
+    height: 156px;
+    border-radius: 4px;
+    background-color: #1a1a1a;
+    display: flex;
+    align-items: center;
+}
+.connect-button{
+    width: 140px;
+    height: 54px;
+    border-radius: 100px;
+    background-color: #D3E97A;
+    gap: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.connect-button p{
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    color: #0a0a0a;
+    font-family: "Manrope", serif;
 }
