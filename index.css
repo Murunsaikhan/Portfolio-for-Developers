@@ -310,7 +310,6 @@ color: #fff;
     width: 50%;
 } 
 .heading-4{
-    width: 50%;
 font-family: "Bebas Neue", sans-serif;
 font-size: 5rem;
 font-weight: 400;
@@ -328,17 +327,15 @@ font-weight: 400;
 color: #c7c7c7;
 }
 .mail{
-    width: 100%;
 font-family: "Manrope", sans-serif;
-font-size: 1.5rem;
+font-size: 2rem;
 font-weight: 400;
 color: #fff;
 border-bottom: 1px solid #D3E97A;
 }
 .mail2{
-    width: 100%;
 font-family: "Manrope", sans-serif;
-font-size: 1.5rem;
+font-size: 2rem;
 font-weight: 400;
 color: #fff;
 border-bottom: 1px solid #D3E97A;
